@@ -68,17 +68,17 @@ const Index = () => {
         <h2>Списки:</h2>
         
         <h3>Маркированный список:</h3>
-        <ul>
-          <li>Первый пункт</li>
-          <li>Второй пункт</li>
-          <li>Третий пункт</li>
+        <ul style={{ marginLeft: '20px' }}>
+          <li style={{ display: 'list-item', listStyleType: 'disc' }}>Первый пункт</li>
+          <li style={{ display: 'list-item', listStyleType: 'disc' }}>Второй пункт</li>
+          <li style={{ display: 'list-item', listStyleType: 'disc' }}>Третий пункт</li>
         </ul>
 
         <h3>Нумерованный список:</h3>
-        <ol>
-          <li>Шаг первый</li>
-          <li>Шаг второй</li>
-          <li>Шаг третий</li>
+        <ol style={{ marginLeft: '20px' }}>
+          <li style={{ display: 'list-item', listStyleType: 'decimal' }}>Шаг первый</li>
+          <li style={{ display: 'list-item', listStyleType: 'decimal' }}>Шаг второй</li>
+          <li style={{ display: 'list-item', listStyleType: 'decimal' }}>Шаг третий</li>
         </ol>
 
         <hr style={{ margin: '30px 0' }} />

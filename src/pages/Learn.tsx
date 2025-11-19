@@ -161,11 +161,11 @@ const Learn = () => {
 
         <div style={{ backgroundColor: '#fffbcc', padding: '20px', border: '2px solid #ffeb3b', borderRadius: '10px', marginBottom: '20px' }}>
           <h2 style={{ color: '#1A1F2C' }}>⚡ Важно помнить!</h2>
-          <ul>
-            <li>✅ Всегда закрывай теги! Если открыл &lt;p&gt; - закрой &lt;/p&gt;</li>
-            <li>✅ Пиши код аккуратно с отступами</li>
-            <li>✅ Сохраняй файл с расширением <strong>.html</strong></li>
-            <li>✅ Открывай HTML файл в браузере чтобы увидеть результат</li>
+          <ul style={{ marginLeft: '20px' }}>
+            <li style={{ display: 'list-item', listStyleType: 'disc' }}>✅ Всегда закрывай теги! Если открыл &lt;p&gt; - закрой &lt;/p&gt;</li>
+            <li style={{ display: 'list-item', listStyleType: 'disc' }}>✅ Пиши код аккуратно с отступами</li>
+            <li style={{ display: 'list-item', listStyleType: 'disc' }}>✅ Сохраняй файл с расширением <strong>.html</strong></li>
+            <li style={{ display: 'list-item', listStyleType: 'disc' }}>✅ Открывай HTML файл в браузере чтобы увидеть результат</li>
           </ul>
         </div>
 
